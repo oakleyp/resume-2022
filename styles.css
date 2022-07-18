@@ -35,3 +35,11 @@ main {
 .tags-container {
     margin-bottom: 1rem;
 }
+
+.skill-label {
+    margin-bottom: 0.5em
+}
+
+.skill-progress {
+    margin-bottom: 1rem;
+}
