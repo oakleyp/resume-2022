@@ -29,17 +29,11 @@ main {
   }
 
 .name {
-    font-size: 3.5em;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 0.1em;
 }
 
 .tags-container {
-    margin-bottom: 1rem;
-}
-
-.skill-label {
-    margin-bottom: 0.5em
-}
-
-.skill-progress {
     margin-bottom: 1rem;
 }
