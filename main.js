@@ -88,7 +88,6 @@
 
     function renderCursor(e) {
       if (e.target !== paperElem) {
-          e.target.style.cursor = "initial";
           return;
       }
 
@@ -96,7 +95,7 @@
     }
 
     function unbindRenderCursor(elem) {
-      elem.style.cursor = "initial";
+      elem.style.cursor = "auto";
       elem.onmouseover = null;
     }
 
